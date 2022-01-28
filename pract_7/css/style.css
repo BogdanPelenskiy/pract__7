@@ -1,0 +1,406 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+/* Take care of yours family’s health. */
+body{
+	 background-color: #E5E5E5;
+	 min-width: 1150px;
+	 height: 100%;
+
+}
+
+
+.header__icon {
+	padding: 40px 0 0 120px;
+}
+.icon__text {
+
+	color: #EC5863;
+font-family: Rubik;
+font-weight: 900;
+
+}
+.icon__color{
+
+	font-weight: 900;
+	font-family: Rubik;
+	display: block;
+	margin: -30px 0 0 40px;
+	color: black;
+	font-size: 24px;
+}
+.burger__text {
+	font-family: Rubik;
+	margin: -30px 0 0 800px;
+}
+.burger__text1 {
+	color: black;
+	
+	margin: 15px 0 0 0px;
+}
+.burger__text2 {
+	color: black;
+
+	margin: -15px 0 0 80px;
+}
+.burger__text3 {
+	color: black;
+
+	margin: -15px 0 0 180px;
+}
+.burger__text4 {
+	color: black;
+
+	margin: -15px 0 0 270px;
+}
+
+.button{
+margin: -25px 0 0 1262px;
+display: block;	
+z-index: 1;
+}
+.button__text {
+	color: white;
+	width: 128px;
+height: 36px;
+background-color: #4285F4;
+text-align: center;
+align-items: center;
+display: flex;
+justify-content: center;
+z-index: 3;
+position: relative;
+}
+
+
+.text__section {
+font-family: Rubik;
+font-weight: bold;
+font-size: 44px;
+line-height: 126%;
+color: #000000;
+margin: -460px 0 0 120px;
+display: block;
+}
+.section__text {
+	color: #4285F4;
+	
+}
+
+.backgroung__section{
+	width: 295.29px;
+	height: 700px;
+	background-color: #EC5863;
+
+	margin: -80px 0 0 1224px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+.sectio__img{
+	margin: -530px 0 0 920px;
+}
+.down__section{
+	padding: 0 0 0 120px;
+	color: #616161;
+	font-family: Rubik;
+	font-size: 12px;
+	line-height: 138.5%;
+	color: #616161;
+}
+.button__section{
+	width: 144px;
+	height: 40px;
+	background-color: #EC5863;
+	color: #FCFDFE;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	display: flex;
+}
+
+.link__button{
+	padding: 50px 0 0 120px;
+	display: block;
+}
+
+.img__section{
+	padding: 120px 0 0 120px;
+}
+
+.sub__text{
+font-family: Rubik;
+font-size: 15px;;
+color: #B0B0B0;
+margin: -35px 0 0 170px;
+}
+
+.video__text{
+font-family: Rubik;
+font-size: 9px;
+text-transform: uppercase;
+color: #000000;
+margin: 5px 0 0 170px;
+}
+.section__img2{
+padding: 200px 0 0 120px;
+height: 700px;
+width: 450px;
+
+}
+
+.text__section2 {
+font-family: Rubik;
+font-size: 44px;
+color: #000000;
+font-weight: 700;
+margin: -360px 0 0 850px;
+}
+.span__section {
+	color: #EC5863;
+	
+}
+.subtext__section2{
+font-family: Rubik;
+font-size: 12px;
+line-height: 138.5%;
+color: #616161;
+margin: 10px 0 0 850px;
+
+}
+
+.button__section2{
+	width: 144px;
+	height: 40px;
+	background-color: #EC5863;
+	color: #FCFDFE;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	margin: 40px 0 0 850px;
+
+}
+
+.link__section2 {
+	font-family: Rubik;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 10px;
+	
+}
+
+
+
+.img__section3{
+padding: 200px 0 0 440px;
+z-index: 4;
+position: relative;
+}
+.img__item{
+	margin: -190px 0 0 440px;
+}
+
+.text__section3 {
+font-family: Rubik;
+font-weight: bold;
+font-size: 44px;
+color: #000000;
+padding: 180px 0 0 120px;
+
+}
+.text__item {
+color: #587EEC;
+}
+.item__section3{
+font-family: Rubik;
+font-size: 12px;
+line-height: 138.5%;
+letter-spacing: 0.08em;
+color: #616161;
+margin: 30px 0 0 120px;
+}
+.link__section3 {
+	width: 144px;
+	height: 40px;
+	background-color: #EC5863;
+	color: #FCFDFE;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	margin: 50px 0 0 120px;
+
+
+
+}
+.link__text3 {
+	font-family: Rubik;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 10px;
+}
+
+.video__section3{
+margin: -250px 0 0 920px;
+
+}
+
+.text__section4{
+font-family: Rubik;
+font-weight: bold;
+font-size: 44px;
+color: black;
+padding: 110px 0 0 0;
+text-align: center;
+}
+.color__section4{
+color: #EC5863;
+}
+.subtext__section4{
+font-family: Rubik;
+font-size: 12px;
+line-height: 138.5%;
+text-align: center;
+letter-spacing: 0.08em;
+color: #616161;
+padding: 15px ;
+}
+.block{
+	display: flex;
+	justify-content: space-around;
+	padding: 25px 0 0 0;
+	z-index: 2;
+}
+.one__block {
+	width: 278px;
+	height: 276px;
+	background-color: white;
+}
+.one__img{
+	text-align: center;
+	padding: 40px 0 0 104px;
+}
+.name__oneblock {
+	text-align: center;
+	padding: 50px 0 0 0;
+font-family: Rubik;
+font-weight: bold;
+font-size: 16px;
+line-height: 138.5%;
+letter-spacing: 0.08em;
+color: #000000;
+}
+.subtext__oneblock {
+font-family: Rubik;
+font-size: 12px;
+line-height: 138.5%;
+text-align: center;
+letter-spacing: 0.08em;
+color: #616161;
+}
+.two__block {
+	width: 278px;
+	height: 276px;
+	background-color: white;
+}
+.two__img{
+	text-align: center;
+	padding: 40px 0 0 104px;
+}
+.name__twoblock {
+	text-align: center;
+	padding: 50px 0 0 0;
+font-family: Rubik;
+font-weight: bold;
+font-size: 16px;
+line-height: 138.5%;
+letter-spacing: 0.08em;
+color: #000000;
+}
+.subtext__twoblock {
+font-family: Rubik;
+font-size: 12px;
+line-height: 138.5%;
+text-align: center;
+letter-spacing: 0.08em;
+color: #616161;
+}
+.three__block {
+	width: 278px;
+	height: 276px;
+	background-color: #fff;
+}
+.three__img{
+	text-align: center;
+	padding: 40px 0 0 104px;
+}
+.name__threeblock {
+	text-align: center;
+	padding: 50px 0 0 0;
+font-family: Rubik;
+font-weight: bold;
+font-size: 16px;
+line-height: 138.5%;
+letter-spacing: 0.08em;
+color: #000000;
+}
+.subtext__threeblock {
+font-family: Rubik;
+font-size: 12px;
+line-height: 138.5%;
+text-align: center;
+letter-spacing: 0.08em;
+color: #616161;
+}
+
+.cubes__item1{
+margin: -45px 0 0 95px;
+
+}
+.two__button{
+	padding: 70px 0 0 0;
+	text-align: center;
+}
+
+.android__download {
+	margin: 0px 0 0 0px;
+}
+.ios__download {
+	margin: -6px 0 0 200px;
+}
